@@ -1,0 +1,11 @@
+.sedans{
+  background: hsl(31, 77%, 52%);
+}
+
+.suvs{
+  background: hsl(184, 100%, 22%);
+}
+
+.luxury{
+  background: hsl(179, 100%, 13%);
+}
