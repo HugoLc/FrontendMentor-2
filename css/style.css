@@ -1,12 +1,19 @@
 .card{
   display: grid;
-  width: 50%;
+  width: 60%;
+  height: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "sedans suvs luxury";
+
+}
+
+.categoria{
+  padding: 19% 19%;
+  position: relative;
 }
 
 .sedans{
@@ -29,4 +36,25 @@
   bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.learn-more{
+  background: white;
+  padding: 17px 33px;
+  border-radius: 30px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10%;
+  left: 19%;
+
+}
+
+.sedans .learn-more{
+  color: hsl(31, 77%, 52%);
+}
+.suvs .learn-more{
+  color: hsl(184, 100%, 22%);
+}
+.luxury .learn-more{
+  color: hsl(179, 100%, 13%);
 }
