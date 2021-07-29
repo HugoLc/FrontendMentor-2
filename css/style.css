@@ -1,5 +1,10 @@
 .card{
   display: grid;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "sedans suvs luxury";
 }
@@ -17,4 +22,11 @@
 .luxury{
   grid-area: luxury;
   background: hsl(179, 100%, 13%);
+}
+
+.attribution{
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
 }
