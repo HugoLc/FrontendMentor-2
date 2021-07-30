@@ -53,12 +53,6 @@ p{
   border-radius: 0 7px 7px 0;
 }
 
-.attribution{
-  position: absolute;
-  bottom: 1%;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .learn-more{
   display: block;
@@ -97,4 +91,26 @@ p{
 .luxury .learn-more:hover{
   background: hsl(179, 100%, 13%);
   color: white;
+}
+
+.attribution{
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 852px){
+  .card{
+    grid-template-columns: 1fr;
+    grid-template-areas: "sedans" "suvs" "luxury";
+
+    width: 85%;
+    height: 1500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0%);
+    padding: 20% 7% 20% 7%;
+  }
 }
