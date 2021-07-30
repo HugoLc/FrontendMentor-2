@@ -1,10 +1,11 @@
 body{
   font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
 }
 
 h1{
   font-family: 'Big Shoulders Display', cursive;
-  margin: 40px 0;
+  margin: 15% 0;
   text-transform: uppercase;
   font-size: 33px;
   color: hsl(0, 0%, 95%);
@@ -15,6 +16,7 @@ p{
   line-height: 1.5rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
+
 
 .card{
   display: grid;
@@ -57,14 +59,13 @@ p{
 }
 
 .learn-more{
+  display: block;
+  position: fixed;
+  bottom: 10%;
   background: white;
-  padding: 17px 33px;
+  padding: 13px 30px;
   border-radius: 30px;
   text-decoration: none;
-  position: absolute;
-  bottom: 10%;
-  left: 19%;
-
 }
 
 .sedans .learn-more{
