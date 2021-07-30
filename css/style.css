@@ -1,6 +1,8 @@
 body{
   font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
+  height: auto;
+  /* position: relative; */
 }
 
 h1{
@@ -106,11 +108,18 @@ p{
     grid-template-areas: "sedans" "suvs" "luxury";
 
     width: 85%;
-    height: 1500px;
-    position: absolute;
+    height: 1325px;
+    position: static;
     top: 0;
     left: 0;
     transform: translate(0%, 0%);
-    padding: 20% 7% 20% 7%;
+    padding: 20% 7.5% 20% 7.5%;
+  }
+
+  .attribution{
+    display: block;
+    position: static;
+    padding-bottom: 2%;
+    transform: translateX(0%);
   }
 }
