@@ -66,14 +66,32 @@ p{
   padding: 13px 30px;
   border-radius: 30px;
   text-decoration: none;
+  border: 2px solid white;
 }
 
 .sedans .learn-more{
   color: hsl(31, 77%, 52%);
 }
+
+.sedans .learn-more:hover{
+  background: hsl(31, 77%, 52%);
+  color: white;
+}
+
 .suvs .learn-more{
   color: hsl(184, 100%, 22%);
 }
+
+.suvs .learn-more:hover{
+  background: hsl(184, 100%, 22%);
+  color: white;
+}
+
 .luxury .learn-more{
   color: hsl(179, 100%, 13%);
+}
+
+.luxury .learn-more:hover{
+  background: hsl(179, 100%, 13%);
+  color: white;
 }
