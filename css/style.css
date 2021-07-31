@@ -108,7 +108,7 @@ p{
     grid-template-areas: "sedans" "suvs" "luxury";
 
     width: 85%;
-    height: 1325px;
+    height: 200vh;
     position: static;
     top: 0;
     left: 0;
@@ -121,5 +121,26 @@ p{
     position: static;
     padding-bottom: 2%;
     transform: translateX(0%);
+  }
+
+  .learn-more{
+    display: inline-block;
+    position: static;
+    background: white;
+    padding: 13px 30px;
+    margin-top: 20%;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: 0.3s;
+  }
+
+  .sedans{
+    border-radius: 7px 7px 0 0;
+  }
+  .luxury{
+    grid-area: luxury;
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 0 7px 7px;
   }
 }
