@@ -41,7 +41,7 @@ p{
 .sedans{
   grid-area: sedans;
   background: hsl(31, 77%, 52%);
-  border-radius: 7px 0 0 7px;
+  border-radius: 6px 0 0 6px;
 }
 
 .suvs{
@@ -52,7 +52,7 @@ p{
 .luxury{
   grid-area: luxury;
   background: hsl(179, 100%, 13%);
-  border-radius: 0 7px 7px 0;
+  border-radius: 0 6px 6px 0;
 }
 
 
