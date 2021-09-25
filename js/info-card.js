@@ -14,10 +14,10 @@ export default class InfoCard {
 
     constructor(paragrafo){
         this.#textoParagrafo = paragrafo;
-        this.#gerarInfoCard(this.#textoParagrafo, this.#classesCss);
+        this.#gerarInfoCard();
     }
 
-    #gerarInfoCard(paragrafo, classes){
+    #gerarInfoCard(){
         let cardHtml = `
             <div class="${this.#classesCSS.fundo}">
                 <div class="${this.#classesCSS.card}">
@@ -32,8 +32,7 @@ export default class InfoCard {
             </div>
         `
         let bodyElement = this.#pegarBody();
-        let bodyHtml = bodyElement.innerHTML;
-        bodyElement.innerHTML = bodyHtml + bodyElement.innerHTML;
+        bodyElement.innerHTML = cardHtml + bodyElement.innerHTML;
     }
 
     #pegarBody(){
