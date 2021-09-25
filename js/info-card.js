@@ -3,7 +3,7 @@
 export default class InfoCard {
     #titulo = 'Sobre o projeto';
     #textoParagrafo;
-    #fundoId = '#id-fundo';
+    #fundoId = 'id-fundo';
     #classesCSS = {
         fundo : 'info',
         card : 'info-card',
@@ -19,7 +19,7 @@ export default class InfoCard {
 
     #gerarInfoCard(){
         let cardHtml = `
-            <div class="${this.#classesCSS.fundo}">
+            <div id="${this.#fundoId}" class="${this.#classesCSS.fundo}">
                 <div class="${this.#classesCSS.card}">
                     <h3 class="${this.#classesCSS.titulo}">
                         <span>${this.#titulo}</span> 
@@ -42,6 +42,7 @@ export default class InfoCard {
 
     excluirInfoCard(){
         let elementoInfo = document.getElementById(this.#fundoId);
+        console.log(elementoInfo);
         elementoInfo.parentNode.removeChild(elementoInfo);
     }
 }
