@@ -5,11 +5,11 @@ export default class InfoCard {
     #textoParagrafo;
     #fundoId = '#id-fundo';
     #classesCSS = {
-        fundo : '.info',
-        card : '.info-card',
-        titulo : '.titulo-info-card',
-        paragrafo : '.paragrafo-info-card',
-        sair : '.exit-info-card' 
+        fundo : 'info',
+        card : 'info-card',
+        titulo : 'titulo-info-card',
+        paragrafo : 'paragrafo-info-card',
+        sair : 'exit-info-card' 
     }
 
     constructor(paragrafo){
