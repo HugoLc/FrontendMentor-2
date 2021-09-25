@@ -12,5 +12,6 @@ const infoCardParagrafo = `
 const infoCard = new InfoCard(infoCardParagrafo);
 
 document.addEventListener('click', () => {
-    infoCard.excluirInfoCard();
+    if(infoCard) {infoCard.excluirInfoCard();}
+    infoCard = null;    
 });
