@@ -2,12 +2,10 @@ import InfoCard from '../js/info-card.js'
 
 
 const infoCardParagrafo = `
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Nullam vehicula ultricies convallis. Orci varius natoque 
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-    Quisque viverra dictum vestibulum. Fusce vitae erat ut metus 
-    mollis luctus id eget ante. Class aptent taciti sociosqu ad litora 
-    torquent per conubia nostra, per inceptos himenaeos.
+    Página criada atendendo as especificações do desafio proposto 
+    no site Frontend Mentor. Praticado posicionamento de elementos,
+    CSS grid e flex, inserção de SVG e link para utilização de ícones 
+    em página externa.
 `
 var infoCard = new InfoCard(infoCardParagrafo);
 
